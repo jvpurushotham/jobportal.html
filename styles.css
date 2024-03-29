@@ -1,0 +1,114 @@
+body {
+  margin-bottom: 0px;
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  .navbar {
+    margin-bottom: 0;
+    z-index: 9999;
+    border: 0;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #121514 !important;
+    background-color: #78d3fa !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #78d3fa !important;
+  }
+  .b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  .two-sec li:before {
+    content: '✓';
+    color: #0e0f0f;
+    margin-right: 2px;
+  }
+  #show-bg {
+    background-image:   linear-gradient(to bottom, rgba(01, 01, 01, 0.99), rgba(0, 0, 0, 0.5)),
+    url('https://imgmedia.lbb.in/media/2023/04/6440ee9b51018b76e94d526c_1681976987292.jpg');
+    background-size: cover;
+    color: white;
+}
+.logo {
+  background-color: white;
+}
+.marg_left {
+  line-height: 16px;
+  margin-left: 12px;
+}
+
+.left {
+  float: left;
+  font-size: 30px;
+}
+
+.marg_right{
+   margin-right:12px;
+}
+.lead {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.jobs {
+  color: black;
+  opacity: 0.2;
+}
+.jobs:hover {
+  color: rgb(13, 12, 12);
+  opacity: 0.9;
+  }
+  .bg-photo{
+   background-image:linear-gradient(to bottom, rgba(237, 162, 162, 0.75), rgba(17, 3, 3, 0.5)), url("https://static.toiimg.com/photo/54559212.cms");
+   background-size: cover;
+
+  }
